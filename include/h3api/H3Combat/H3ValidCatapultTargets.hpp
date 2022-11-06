@@ -23,6 +23,7 @@ namespace h3
 	struct H3ValidCatapultTargets
 	{
 		_H3API_SIZE_(0xC);
+		//NOTE: orginal table pointer is 0x63BE68, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x4929DD + 3, H3ValidCatapultTargets);
 
 		INT32 fortElementId;

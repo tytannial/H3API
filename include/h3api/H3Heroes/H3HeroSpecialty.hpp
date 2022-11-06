@@ -24,7 +24,8 @@ namespace h3
 	struct H3HeroSpecialty
 	{
 		_H3API_SIZE_(0x28);
-		_H3API_GET_INFO_(0x679C80, H3HeroSpecialty);
+		//NOTE: orginal table pointer is 0x679C80, but use a reference for compatiblity
+		_H3API_GET_INFO_(0x4B8AF1 + 1, H3HeroSpecialty);
 
 		/** @brief [0]*/
 		eHeroSpecialty type;

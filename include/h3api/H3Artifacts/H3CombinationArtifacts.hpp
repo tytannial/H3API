@@ -25,6 +25,7 @@ namespace h3
     struct H3ComboArtifactSetup
     {
         _H3API_SIZE_(0x18);
+        //NOTE: orginal table pointer is 0x660B6C, but use a reference for compatiblity
         _H3API_GET_INFO_(0x4DDFF2 + 2, H3ComboArtifactSetup);
 
         /** @brief [00] matching artifact id of this combo*/

@@ -22,6 +22,7 @@ namespace h3
 	struct H3ObstacleInfo
 	{
 		_H3API_SIZE_(0x14);
+		//NOTE: orginal table pointer is 0x63C7C8, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x465C1E + 3, H3ObstacleInfo);
 
 		/** @brief [00] (bitfield)*/

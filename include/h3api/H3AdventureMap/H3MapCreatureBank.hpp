@@ -84,6 +84,7 @@ namespace h3
 	// * CRBanks.txt converted in memory, overall bank state
 	struct H3CreatureBankSetup
 	{
+		//NOTE: orginal table pointer is 0x695088, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x47A3C1 + 1, H3CreatureBankSetup);
 
 		H3String name;

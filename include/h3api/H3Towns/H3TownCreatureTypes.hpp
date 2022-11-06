@@ -21,6 +21,7 @@ namespace h3
 	struct H3TownCreatureTypes
 	{
 		_H3API_SIZE_(0x38);
+		//NOTE: orginal table pointer is 0x6747B4, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x47AB00 + 3, H3TownCreatureTypes);
 		struct iterator
 		{

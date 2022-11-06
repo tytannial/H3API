@@ -24,6 +24,7 @@ namespace h3
 	struct H3CreatureAnimation
 	{
 		_H3API_SIZE_(0x54);
+		//NOTE: orginal table pointer is 0x699930, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x50CC01 + 3, H3CreatureAnimation);
 
 		struct H3MissileOffets

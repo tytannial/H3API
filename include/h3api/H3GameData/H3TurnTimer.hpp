@@ -22,6 +22,7 @@ namespace h3
 	struct H3TurnTimer
 	{
 		_H3API_SIZE_(0x14);
+		//NOTE: orginal table pointer is 0x69D680, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x4AD194 + 1, H3TurnTimer);
 
 		/** @brief [00]*/

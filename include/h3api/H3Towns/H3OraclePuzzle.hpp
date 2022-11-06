@@ -19,6 +19,7 @@ namespace h3
 
 	struct H3PuzzleCoordinates
 	{
+		//NOTE: orginal table pointer is 0x6818F4, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x52CC09 + 3, H3PuzzleCoordinates);
 		INT16 x[48];
 		INT16 y[48];
@@ -26,6 +27,7 @@ namespace h3
 
 	struct H3PuzzlePiecesOrder
 	{
+		//NOTE: orginal table pointer is 0x681FB4, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x52CBF2 + 4, H3PuzzlePiecesOrder);
 		INT16 order[48];
 	};

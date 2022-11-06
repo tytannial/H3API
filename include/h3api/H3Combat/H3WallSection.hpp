@@ -43,6 +43,7 @@ namespace h3
 	struct H3TownFortifications
 	{
 		_H3API_SIZE_(0x288);
+		//NOTE: orginal table pointer is 0x66D848, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x4947C0 + 3, H3TownFortifications);
 
 		H3WallSection fortifications[h3::limits::FORT_ELEMENTS];

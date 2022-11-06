@@ -136,6 +136,7 @@ namespace h3
 
 	struct H3CmpBonusBuildingsNames
 	{
+		//NOTE: orginal table pointer is 0x6755B8, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x48415F + 3, H3CmpBonusBuildingsNames);
 
 		LPCSTR names[44];

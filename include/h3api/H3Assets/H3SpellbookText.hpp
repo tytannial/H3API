@@ -20,6 +20,7 @@ namespace h3
 
 	struct H3SpellbookText
 	{
+		//NOTE: orginal table pointer is 0x6A5338, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x59DBB0 + 3, H3SpellbookText);
 		struct TextPair
 		{

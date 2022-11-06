@@ -35,6 +35,7 @@ namespace h3
 	// * a binary tree to hold game assets
 	struct H3ResourceManager : H3Set<H3ResourceItemData, 0x69E604>
 	{
+		//NOTE: orginal table pointer is 0x69E560, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x55A7CE + 1, H3ResourceManager);
 
 		_H3API_ Node* FindItem(LPCSTR name);

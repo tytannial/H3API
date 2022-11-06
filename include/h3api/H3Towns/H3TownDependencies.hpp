@@ -22,6 +22,7 @@ namespace h3
 
 	struct H3TownDependencies
 	{
+		//NOTE: orginal table pointer is 0x6977E8, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x5D6015 + 3, H3TownDependencies);
 
 		H3BuildingsBitfield m_dependency[h3::limits::BUILDINGS];

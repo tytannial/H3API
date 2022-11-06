@@ -21,6 +21,7 @@ namespace h3
 
 	struct H3QuestsText
 	{
+		//NOTE: orginal table pointer is 0x69E788, but use a reference for compatiblity
 		_H3API_GET_INFO_(0x56C72F + 2, H3QuestsText);
 
 		struct
